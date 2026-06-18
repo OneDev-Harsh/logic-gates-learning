@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background circle with dark slate/blue gradient -->
+  <rect width="32" height="32" rx="8" fill="url(#bgGrad)" />
+  
+  <!-- Circuit board traces -->
+  <path d="M 6 16 L 12 16 M 16 6 L 16 12 M 16 20 L 16 26 M 20 16 L 26 16" stroke="url(#accentGrad)" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Gate symbol / Microchip body -->
+  <rect x="11" y="11" width="10" height="10" rx="2" fill="url(#chipGrad)" stroke="#FFFFFF" stroke-width="1.5" />
+  
+  <!-- Glowing center dot -->
+  <circle cx="16" cy="16" r="2.5" fill="#F59E0B" />
+  
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+</svg>
